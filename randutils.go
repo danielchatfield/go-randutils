@@ -6,10 +6,11 @@ import (
 )
 
 const (
-	Alphabet     = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-	Numerals     = "0123456789"
-	Alphanumeric = Alphabet + Numerals
-	Ascii        = Alphanumeric + "~!@#$%^&amp;*()-_+={}[]\\|&lt;,&gt;.?/\"';:`"
+	Alphabet      = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+	Numerals      = "0123456789"
+	Alphanumeric  = Alphabet + Numerals
+	Ascii         = Alphanumeric + "~!@#$%^&amp;*()-_+={}[]\\|&lt;,&gt;.?/\"';:`"
+	HumanFriendly = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz123456789"
 )
 
 // String returns a random alphanumeric string of the given length

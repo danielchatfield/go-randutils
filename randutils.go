@@ -9,8 +9,9 @@ const (
 	Alphabet      = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 	Numerals      = "0123456789"
 	Alphanumeric  = Alphabet + Numerals
-	Ascii         = Alphanumeric + "~!@#$%^&amp;*()-_+={}[]\\|&lt;,&gt;.?/\"';:`"
-	HumanFriendly = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789"
+	Special       = "~?!@#$%^&*-_+=(){}[]|,.;:`'"
+	Ascii         = Alphanumeric + Special
+	HumanFriendly = Alphabet + "23456789"
 )
 
 // String returns a random alphanumeric string of the given length
